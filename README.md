@@ -5,11 +5,13 @@ This docker container is created to supply a Centos 6 image that is pre-configur
 
 ## Usage
 
- docker create \
-  --name phpbb_classic \
-  -v </path/to/your/webroot>:/var/www/html \
-  -p 80:80 \
-  lgalastacia/phpbb_classic 
+:::Shell
+docker create \
+ --name phpbb_classic \
+ -v </path/to/your/webroot>:/var/www/html \
+ -p 80:80 \
+ lgalastacia/phpbb_classic 
+:::
 
 ## Parameters
 
